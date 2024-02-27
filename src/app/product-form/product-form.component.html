@@ -1,0 +1,20 @@
+<h2>Add Product</h2>
+
+<form (submit)="onSubmit()">
+  <div>
+    <label>Title:</label>
+    <input type="text" [(ngModel)]="task.title" name="title" required>
+  </div>
+  <div>
+    <label>Description:</label>
+    <textarea [(ngModel)]="task.description" name="description" required></textarea>
+  </div>
+  <div>
+    <label>Status:</label>
+    <select [(ngModel)]="task.status" name="status" required>
+      <option value="In Stock">In Stock</option>
+      <option value="Out of Stock">Out of Stock</option>
+    </select>
+  </div>
+  <button type="submit">Save</button>
+</form>

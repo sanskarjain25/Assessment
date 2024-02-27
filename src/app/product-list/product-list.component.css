@@ -1,0 +1,20 @@
+
+ul {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  width: 400px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+  display: block;
+  margin-bottom: 5px;
+}

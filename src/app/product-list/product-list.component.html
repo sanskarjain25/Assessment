@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let task of tasks" [appHighlighttask]="task.status">
+    <span><strong>Title:</strong> {{ task.title }}</span>
+    <span><strong>Description:</strong> {{ task.description }}</span>
+    <span><strong>Status:</strong> {{ task.status }}</span>
+  </li>
+</ul>
